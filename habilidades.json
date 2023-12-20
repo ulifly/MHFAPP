@@ -1,0 +1,1534 @@
+{
+	"Habilidades de estado": [
+		{
+			"Habilidad": "Ataque",
+			"division": [
+				{
+					"nombre": "Sub ataque (grande)",
+					"Puntos": "+20",
+					"Descripción": "Incrementa el poder de ataque en un múltiplo de 10 X (clase de arma) - Gran Espada/Espada Larga - 4.8. - Espada y Escudo/Espada Doble - 1.4 - Martillo/Cuerno de Caza - 5.2 - Lanza/Lanza Pistola - 2.3 - Ballesta Ligera y Pesada/Arco - 1.2"
+				},
+				{
+					"nombre": "Sub ataque (medio) ",
+					"Puntos": "+15",
+					"Descripción": "Incrementa el poder de ataque en un múltiplo de 5 X (clase de arma) - Gran Espada/Espada Larga - 4.8. - Espada y Escudo/Espada Doble - 1.4 - Martillo/Cuerno de Caza - 5.2 - Lanza/Lanza Pistola - 2.3 - Ballesta Ligera y Pesada/Arco - 1.2"
+				},
+				{
+					"nombre": "Sub ataque (peq.)",
+					"Puntos": "+10",
+					"Descripción": "Incrementa el poder de ataque en un múltiplo de 3 X (clase de arma) - Gran Espada/Espada Larga - 4.8. - Espada y Escudo/Espada Doble - 1.4 - Martillo/Cuerno de Caza - 5.2 - Lanza/Lanza Pistola - 2.3 - Ballesta Ligera y Pesada/Arco - 1.2"
+				},
+				{
+					"nombre": "Ataque abajo (peq.)",
+					"Puntos": "-10",
+					"Descripción": "Reduce 3 veces el poder de ataque"
+				},
+				{
+					"nombre": "Ataque abajo (medio)",
+					"Puntos": "-15",
+					"Descripción": "Reduce 5 veces el poder de ataque"
+				},
+				{
+					"nombre": "Ataque abajo (grande)",
+					"Puntos": "-20",
+					"Descripción": "Reduce 10 veces el poder de ataque"
+				}
+			]
+		},
+		{
+			"Habilidad": "Defensa",
+			"division": [
+				{
+					"nombre": "Defensa +40",
+					"Puntos": "+20",
+					"Descripción": "Añade 40 puntos a la defensa"
+				},
+				{
+					"nombre": "Defensa +30",
+					"Puntos": "+15",
+					"Descripción": "Añade 30 puntos a la defensa"
+				},
+				{
+					"nombre": "Defensa +20",
+					"Puntos": "+10",
+					"Descripción": "Añade 20 puntos a la defensa"
+				},
+				{
+					"nombre": "Defensa -20",
+					"Puntos": "-10",
+					"Descripción": "Reduce 20 puntos a la defensa del cazador"
+				},
+				{
+					"nombre": "Defensa -30",
+					"Puntos": "-15",
+					"Descripción": "Reduce 30 puntos a la defensa del cazador"
+				},
+				{
+					"nombre": "Defensa -40",
+					"Puntos": "-20",
+					"Descripción": "Reduce 40 puntos a la defensa del cazador"
+				}
+			]
+		},
+		{
+			"Habilidad": "Salud",
+			"division": [
+				{
+					"nombre": "Salud +50",
+					"Puntos": "+20",
+					"Descripción": "Aumenta en 50 puntos la salud maxima"
+				},
+				{
+					"nombre": "Salud +30",
+					"Puntos": "+15",
+					"Descripción": "Aumenta en 30 puntos la salud maxima"
+				},
+				{
+					"nombre": "Salud +20",
+					"Puntos": "+10",
+					"Descripción": "Aumenta en 20 puntos la salud maxima"
+				},
+				{
+					"nombre": "Salud -10",
+					"Puntos": "-10",
+					"Descripción": "Disminuye en 10 puntos la salud maxima"
+				},
+				{
+					"nombre": "Salud -20",
+					"Puntos": "-15",
+					"Descripción": "Disminuye en 20 puntos la salud maxima"
+				},
+				{
+					"nombre": "Salud -30",
+					"Puntos": "-30",
+					"Descripción": "Disminuye en 30 puntos la salud maxima"
+				}
+			]
+		},
+		{
+			"Habilidad": "Hambre",
+			"division": [
+				{
+					"nombre": "Hambre anulada",
+					"Puntos": "+15",
+					"Descripción": "La barra de resistencia no disminuye"
+				},
+				{
+					"nombre": "Hambre a mitad",
+					"Puntos": "+10",
+					"Descripción": "La barra de resistencia tarda el doble en reducirse"
+				},
+				{
+					"nombre": "Aumento hambre [ba]",
+					"Puntos": "-10",
+					"Descripción": "La barra de resistencia se reduce más rápido"
+				},
+				{
+					"nombre": "Aumento hambre [al]",
+					"Puntos": "-15",
+					"Descripción": "La barra de resistencia se reduce el doble de rápido"
+				}
+			]
+		},
+		{
+			"Habilidad": "Res.Calor",
+			"division": [
+				{
+					"nombre": "Can. calor [alto]",
+					"Puntos": "+15",
+					"Descripción": "Inmunidad total al calor"
+				},
+				{
+					"nombre": "Can. calor [bajo]",
+					"Puntos": "+10",
+					"Descripción": "Inmunidad al calor en ciertas zonas"
+				},
+				{
+					"nombre": "Aum. calor [bajo]",
+					"Puntos": "-10",
+					"Descripción": "La salud se reduce más rápido en zonas con calor"
+				}
+			]
+		},
+		{
+			"Habilidad": "Res.Frio",
+			"division": [
+				{
+					"nombre": "Can.Frio [alto]",
+					"Puntos": "+15",
+					"Descripción": "Inmunidad al frío"
+				},
+				{
+					"nombre": "Can.Frio [bajo]",
+					"Puntos": "+10",
+					"Descripción": "Inmunidad al frío en ciertas zonas"
+				},
+				{
+					"nombre": "Aum.Frío [bajo]",
+					"Puntos": "-10",
+					"Descripción": "La barra de resistencia se reduce más rápido en zonas frías"
+				}
+			]
+		}
+	],
+	"Habilidades Maestro Espada": [
+		{
+			"Habilidad": "Artesano",
+			"division": [
+				{
+					"Nombre": "Afilado+1",
+					"Puntos": "+10",
+					"Efecto": "Aumenta el nivel de afilado del arma (No tiene ningún efecto en armas con el nivel de afilado al máximo. Ej: Armas de Nargacuga)"
+				}
+			]
+		},
+		{
+			"Habilidad": "Afilado",
+			"division": [
+				{
+					"nombre": "Espada afilada",
+					"Puntos": "+10",
+					"Efecto": "Reduce el desgaste del afilado del arma a la mitad. Las espadas dobles tienen esta habilidad por defecto."
+				},
+				{
+					"nombre": "Desafilado",
+					"Puntos": "-10",
+					"Efecto": "Aumenta el desgaste del afilado del arma al doble."
+				}
+			]
+		},
+		{
+			"Habilidad": "Esgrima",
+			"division": [
+				{
+					"nombre": "ESP",
+					"Puntos": "+10",
+					"Efecto": "Evita que los ataques reboten en los monstruos (No evita el desgaste aumentado del afilado del arma)"
+				}
+			]
+		},
+		{
+			"Habilidad": "Afilador",
+			"division": [
+				{
+					"nombre": "Hab. Afilado aum.",
+					"Puntos": "+10",
+					"Efecto": "Reduce el tiempo de afilado."
+				},
+				{
+					"nombre": "Hab. Afilado mitad",
+					"Puntos": "-10",
+					"Efecto": "Aumenta el tiempo de afilado."
+				}
+			]
+		},
+		{
+			"Habilidad": "Proteger",
+			"division": [
+				{
+					"nombre": "Protección +2",
+					"Puntos": "+20",
+					"Efecto": "Reduce aún más el uso de resistencia, daño recibido y retroceso al bloquear un ataque."
+				},
+				{
+					"nombre": "Protección +1",
+					"Puntos": "+10",
+					"Efecto": "Reduce el uso de resistencia, daño recibido y retroceso al bloquear un ataque."
+				},
+				{
+					"nombre": "Protección -1",
+					"Puntos": "-10",
+					"Efecto": "Aumenta el uso de resistencia, daño recibido y retroceso al bloquear un ataque."
+				}
+			]
+		},
+		{
+			"Habilidad": "Autoprot.",
+			"division": [
+				{
+					"nombre": "Autoprotección",
+					"Puntos": "+10",
+					"Efecto": "Bloquea ataques de forma automática (Solo en armas que tengan la opción de bloquear ataques)"
+				}
+			]
+		},
+		{
+			"Habilidad": "Dsnf. Espada",
+			"division": [
+				{
+					"nombre": "Arte desenfundar",
+					"Puntos": "+10",
+					"Efecto": "Todos los ataques de desenfunde tienen un 100% de probabilidad de ser un golpe crítico."
+				}
+			]
+		}
+	],
+	"Habilidades de Artillero": [
+		{
+			"Habilidad": "SubDNorm",
+			"division": [
+				{
+					"nombre": "Dnormal/ArcRáp subir",
+					"Puntos": "+10",
+					"Efecto": "Aumenta el daño de los disparos normales (ballestas) y disparo rápido (arco) un 10%"
+				}
+			]
+		},
+		{
+			"Habilidad": "SubirDPerf",
+			"division": [
+				{
+					"nombre": "Dperf/ArcPerf subir",
+					"Puntos": "+10",
+					"Efecto": "Aumenta el daño de los disparos perforantes un 10%"
+				}
+			]
+		},
+		{
+			"Habilidad": "SubirDPerd",
+			"division": [
+				{
+					"nombre": "Dperd/ArcDspr subir",
+					"Puntos": "+10",
+					"Efecto": "Aumenta el daño de los disparos perdigón (ballestas) y disparo dispersion (arco) un 30%"
+				}
+			]
+		},
+		{
+			"Habilidad": "AñDNormal",
+			"division": [
+				{
+					"nombre": "Añ.D.n.todos NV",
+					"Puntos": "+10",
+					"Efecto": "Permite usar cualquier nivel de munición normal a ballestas que no tienen ese tipo de disparo."
+				}
+			]
+		},
+		{
+			"Habilidad": "AñDPerf",
+			"division": [
+				{
+					"nombre": "Añadir d. Perf. NV1",
+					"Puntos": "+10",
+					"Efecto": "Permite usar munición perforante nivel 1 a ballestas que no tienen ese tipo de disparo."
+				},
+				{
+					"nombre": "Añ.D.perf. todos NV",
+					"Puntos": "+15",
+					"Efecto": "Permite usar cualquier nivel de munición perforante a ballestas que no tienen ese tipo de disparo."
+				}
+			]
+		},
+		{
+			"Habilidad": "AñDPerd ",
+			"division": [
+				{
+					"nombre": "Añadir d. perd. NV1",
+					"Puntos": "+10",
+					"Efecto": "Permite usar munición perdigón nivel 1 a ballestas que no tienen ese tipo de disparo."
+				},
+				{
+					"nombre": "Añ.D.Perd.todos NV",
+					"Puntos": "+15",
+					"Efecto": "Permite usar cualquier nivel de munición perdigón a ballestas que no tienen ese tipo de disparo."
+				}
+			]
+		},
+		{
+			"Habilidad": "AñDExpl",
+			"division": [
+				{
+					"nombre": "Añadir d. expl. NV1",
+					"Puntos": "+10",
+					"Efecto": "Permite usar munición explosivo nivel 1 a ballestas que no tienen ese tipo de disparo."
+				},
+				{
+					"nombre": "Añ.D.Expl.todos NV",
+					"Puntos": "+15",
+					"Efecto": "Permite usar cualquier nivel de munición explosiva a ballestas que no tienen ese tipo de disparo."
+				}
+			]
+		},
+		{
+			"Habilidad": "AñDispGr",
+			"division": [
+				{
+					"nombre": "Añadir D. grupo NV1",
+					"Puntos": "+10",
+					"Efecto": "Permite usar munición grupo nivel 1 a ballestas que no tienen ese tipo de disparo."
+				},
+				{
+					"nombre": "Añ.D.grupo todos NV",
+					"Puntos": "+15",
+					"Efecto": "Permite usar cualquier nivel de munición explosiva a ballestas que no tienen ese tipo de disparo."
+				}
+			]
+		},
+		{
+			"Habilidad": "Añ.Rev.ene",
+			"division": [
+				{
+					"nombre": "Añadir Rev. energía",
+					"Puntos": "+10",
+					"Efecto": "Permite usar revestimiento de corto alcance a los arcos que no podían usarlo antes."
+				}
+			]
+		},
+		{
+			"Habilidad": "Añ.Rev.cmb",
+			"division": [
+				{
+					"nombre": "Añ.Rev.cmb",
+					"Puntos": "+10",
+					"Efecto": "Permite usar revestimiento de corto alcance a los arcos que no podían usarlo antes."
+				}
+			]
+		},
+		{
+			"Habilidad": "Añ.Rev.ven",
+			"division": [
+				{
+					"nombre": "Añ.Rev.veneno",
+					"Puntos": "+10",
+					"Efecto": "Permite usar revestimiento veneno a los arcos que no podían usarlo antes."
+				}
+			]
+		},
+		{
+			"Habilidad": "Añ.Rev.par",
+			"division": [
+				{
+					"nombre": "Añ.Rev.parálisis",
+					"Puntos": "+10",
+					"Efecto": "Permite usar revestimiento parálisis a los arcos que no podían usarlo antes."
+				}
+			]
+		},
+		{
+			"Habilidad": "Añ.Rev.sue",
+			"division": [
+				{
+					"nombre": "Añ.Rev.sueño",
+					"Puntos": "+10",
+					"Efecto": "Permite usar revestimiento sueño a los arcos que no podían usarlo antes."
+				}
+			]
+		},
+		{
+			"Habilidad": "Recargar",
+			"division": [
+				{
+					"nombre": "Velocidad Recarga +3",
+					"Puntos": "+20",
+					"Efecto": "Aumenta 3 niveles a la velocidad de recarga (ballestas) y aplicación de revestimiento (arco)"
+				},
+				{
+					"nombre": "Velocidad Recarga +2",
+					"Puntos": "+15",
+					"Efecto": "Aumenta 2 niveles a la velocidad de recarga (ballestas) y aplicación de revestimiento (arco)"
+				},
+				{
+					"nombre": "Velocidad Recarga +1",
+					"Puntos": "+10",
+					"Efecto": "Aumenta 1 nivel a la velocidad de recarga (ballestas) y aplicación de revestimiento (arco)"
+				},
+				{
+					"nombre": "Velocidad Recarga -1",
+					"Puntos": "-10",
+					"Efecto": "Reduce 1 nivel a la velocidad de recarga (ballestas) y aplicación de revestimiento (arco)"
+				},
+				{
+					"nombre": "Velocidad Recarga -2",
+					"Puntos": "-15",
+					"Efecto": "Reduce 2 niveles a la velocidad de recarga (ballestas) y aplicación de revestimiento (arco)"
+				},
+				{
+					"nombre": "Velocidad Recarga -3",
+					"Puntos": "-20",
+					"Efecto": "Reduce 3 niveles a la velocidad de recarga (ballestas) y aplicación de revestimiento (arco)"
+				}
+			]
+		},
+		{
+			"Habilidad": "Autorecarg.",
+			"division": [
+				{
+					"nombre": "Autorecarga",
+					"Puntos": "+10",
+					"Efecto": "Permite disparar sin necesidad de recargar. (Excepto al escoger munición, al acabarse el tipo de munición o al elegir una munición con opción de disp. rápido) Ajusta el nivel de retroceso a Fuerte y no puede reducirse con ninguna habilidad de Retroceso positiva. (No afecta a disp. normal 1/2/3 ni disp. elementales exceptuando dragón) Los revestimientos se aplican automáticamente. "
+				}
+			]
+		},
+		{
+			"Habilidad": "Retroceso",
+			"division": [
+				{
+					"nombre": "Reduc. Retroceso +2",
+					"Puntos": "+20",
+					"Efecto": "Reduce 4 niveles el retroceso de la ballesta "
+				},
+				{
+					"nombre": "Reduc. Retroceso +1",
+					"Puntos": "+10",
+					"Efecto": "Reduce 2 niveles el retroceso de la ballesta "
+				}
+			]
+		},
+		{
+			"Habilidad": "Cargam.",
+			"division": [
+				{
+					"nombre": "Capac.+",
+					"Puntos": "+10",
+					"Efecto": "Aumenta la capacidad de munición de la lanza pistola, ballesta/Nivel de disparo de arco en 1. p.e: Una ballesta con munición normal nv2 con 6 disparos, pasaría a tener 7 disparos."
+				}
+			]
+		},
+		{
+			"Habilidad": "Precis.",
+			"division": [
+				{
+					"nombre": "Desv.Proyectil -",
+					"Puntos": "+10",
+					"Efecto": "Reduce la desviación del disparo de la ballesta."
+				},
+				{
+					"nombre": "Desv.Proyectil +",
+					"Puntos": "-10",
+					"Efecto": "Aumenta la desviación del disparo de la ballesta."
+				}
+			]
+		}
+	],
+	"Habilidades generales": [
+		{
+			"Habilidad": "Experto",
+			"division": [
+				{
+					"nombre": "Abandono Temerario +3",
+					"Puntos": "+20",
+					"Efecto": "Aumenta la afinidad del arma un 30%. Si el arma tiene 0-25% de afinidad, esta habilidad aumenta un 5% la afinidad en afilado azul ó 10% en afilado blanco o morado."
+				},
+				{
+					"nombre": "Abandono Temerario +2",
+					"Puntos": "+15",
+					"Efecto": "Aumenta la afinidad del arma un 20%. Si el arma tiene 0-25% de afinidad, esta habilidad aumenta un 5% la afinidad en afilado azul ó 10% en afilado blanco o morado."
+				},
+				{
+					"nombre": "Abandono Temerario +1",
+					"Puntos": "+10",
+					"Efecto": "Aumenta la afinidad del arma un 10%. Si el arma tiene 0-25% de afinidad, esta habilidad aumenta un 5% la afinidad en afilado azul ó 10% en afilado blanco o morado."
+				},
+				{
+					"nombre": "Abandono Temerario -1",
+					"Puntos": "-10",
+					"Efecto": "Reduce la afinidad del arma un -10%"
+				}
+			]
+		},
+		{
+			"Habilidad": "Atq. Esp.",
+			"division": [
+				{
+					"nombre": "Subir atq. est. anormal ",
+					"Puntos": "+10",
+					"Efecto": "Aumenta el efecto de las armas de veneno/parálisis/sueño un 12%"
+				}
+			]
+		},
+		{
+			"Habilidad": "Atq Elem.",
+			"division": [
+				{
+					"nombre": "Subir atq. elemental",
+					"Puntos": "+10",
+					"Efecto": "Aumenta el daño elemental de las armas un 20%"
+				}
+			]
+		},
+		{
+			"Habilidad": "Subir prot.",
+			"division": [
+				{
+					"nombre": "Guardia Inc",
+					"Puntos": "+15",
+					"Efecto": "Permite bloquear ataques que no se pueden bloquear p.e.:Rayo de Basarios/Gravios, bola de fuego de Fatalis, etc."
+				}
+			]
+		},
+		{
+			"Habilidad": "Prot.Oído",
+			"division": [
+				{
+					"nombre": "Tapón oídos gran cal.",
+					"Puntos": "+15",
+					"Efecto": "Inmunidad a todos los rugidos, Esta habilidad no protege del retroceso/daño de ciertos rugidos."
+				},
+				{
+					"nombre": "Tapón de oído",
+					"Puntos": "+10",
+					"Efecto": "Inmunidad a rugidos pequeños"
+				}
+			]
+		},
+		{
+			"Habilidad": "Pres. viento",
+			"division": [
+				{
+					"nombre": "Anular viento dragón",
+					"Puntos": "+20",
+					"Efecto": "Inmunidad total a corrientes de aire"
+				},
+				{
+					"nombre": "Res. viento alta",
+					"Puntos": "+15",
+					"Efecto": "Inmunidad a corrientes de aire grandes"
+				},
+				{
+					"nombre": "Res. viento baja",
+					"Puntos": "+10",
+					"Efecto": "Inmunidad a corrientes de aire pequeñas"
+				}
+			]
+		},
+		{
+			"Habilidad": "Artillería",
+			"division": [
+				{
+					"nombre": "Rey artillería",
+					"Puntos": "+15",
+					"Efecto": "Aumenta el daño del Disp.Balista, Disp.Cañón, Disparo de lanza pistola, Fuego Wyvern y Disp.Explosivo un 50% "
+				},
+				{
+					"nombre": "Maestro artillero",
+					"Puntos": "+10",
+					"Efecto": "Aumenta el daño del Disp.Balista y Disp.Cañón un 10% "
+				}
+			]
+		},
+		{
+			"Habilidad": "Carga Corta",
+			"division": [
+				{
+					"nombre": "Concentracion",
+					"Puntos": "+10",
+					"Efecto": "Reduce el tiempo de carga de la Gran Espada, Martillo y Arco un 50%"
+				},
+				{
+					"nombre": "Distraccion",
+					"Puntos": "-10",
+					"Efecto": "Aumenta el tiempo de carga de la Gran Espada, Martillo y Arco un 25%"
+				}
+			]
+		},
+		{
+			"Habilidad": "Agallas",
+			"division": [
+				{
+					"nombre": "Agallas",
+					"Puntos": "+10",
+					"Efecto": "Salva al cazador de cualquier golpe mortal si su salud esta sobre 65. Siempre y cuando la salud del cazador este sobre 65 (una megapocion y poción al tener 1HP) esta habilidad se activará"
+				}
+			]
+		}
+	],
+	"Habilidades de resistencias elementales": [
+		{
+			"Habilidad": "Res. todo",
+			"division": [
+				{
+					"nombre": "Res. todo +10",
+					"Puntos": "+20",
+					"Efecto": "Aumenta 10 puntos a todas las resistencias elementales."
+				},
+				{
+					"nombre": "Res. todo +5",
+					"Puntos": "+15",
+					"Efecto": "Aumenta 5 puntos a todas las resistencias elementales."
+				},
+				{
+					"nombre": "Res. todo +3",
+					"Puntos": "+10",
+					"Efecto": "Aumenta 3 puntos a todas las resistencias elementales."
+				},
+				{
+					"nombre": "Res. todo -3",
+					"Puntos": "-10",
+					"Efecto": "Reduce 3 puntos a todas las resistencias elementales."
+				},
+				{
+					"nombre": "Res. todo -5",
+					"Puntos": "-15",
+					"Efecto": "Reduce 5 puntos a todas las resistencias elementales."
+				},
+				{
+					"nombre": "Res. todo -10",
+					"Puntos": "-20",
+					"Efecto": "Reduce 10 puntos a todas las resistencias elementales."
+				}
+			]
+		},
+		{
+			"Habilidad": "Res. fuego",
+			"division": [
+				{
+					"nombre": "Res. fuego +10",
+					"Puntos": "+15",
+					"Efecto": "Aumenta 10 puntos la resistencia de fuego."
+				},
+				{
+					"nombre": "Res. fuego +5",
+					"Puntos": "+10",
+					"Efecto": "Aumenta 5 puntos la resistencia de fuego."
+				},
+				{
+					"nombre": "Res. fuego -5",
+					"Puntos": "-10",
+					"Efecto": "Reduce 10 puntos la resistencia de fuego."
+				},
+				{
+					"nombre": "Res. fuego -10",
+					"Puntos": "-15",
+					"Efecto": "Reduce 10 puntos la resistencia de fuego."
+				}
+			]
+		},
+		{
+			"Habilidad": "Res. agua",
+			"division": [
+				{
+					"nombre": "Res. agua +10",
+					"Puntos": "+15",
+					"Efecto": "Aumenta 10 puntos la resistencia de agua."
+				},
+				{
+					"nombre": "Res. agua +5",
+					"Puntos": "+10",
+					"Efecto": "Aumenta 5 puntos la resistencia de agua."
+				},
+				{
+					"nombre": "Res. agua -5",
+					"Puntos": "-10",
+					"Efecto": "Reduce 5 puntos la resistencia de agua."
+				},
+				{
+					"nombre": "Res. agua -10",
+					"Puntos": "-15",
+					"Efecto": "Reduce 10 puntos la resistencia de agua."
+				}
+			]
+		},
+		{
+			"Habilidad": "Res.trueno",
+			"division": [
+				{
+					"nombre": "Res. trueno +10",
+					"Puntos": "+15",
+					"Efecto": "Aumenta 10 puntos la resistencia de trueno."
+				},
+				{
+					"nombre": "Res. trueno +5",
+					"Puntos": "+10",
+					"Efecto": "Aumenta 5 puntos la resistencia de trueno."
+				},
+				{
+					"nombre": "Res. trueno -5",
+					"Puntos": "-10",
+					"Efecto": "Reduce 5 puntos la resistencia de trueno."
+				},
+				{
+					"nombre": "Res. trueno -10",
+					"Puntos": "-15",
+					"Efecto": "Reduce 10 puntos la resistencia de trueno."
+				}
+			]
+		},
+		{
+			"Habilidad": "Res.hielo",
+			"division": [
+				{
+					"nombre": "Res.hielo +10",
+					"Puntos": "+15",
+					"Efecto": "Aumenta 10 puntos la resistencia de hielo."
+				},
+				{
+					"nombre": "Res.hielo +5",
+					"Puntos": "+10",
+					"Efecto": "Aumenta 5 puntos la resistencia de hielo."
+				},
+				{
+					"nombre": "Res.hielo -5",
+					"Puntos": "-10",
+					"Efecto": "Reduce 5 puntos la resistencia de hielo."
+				},
+				{
+					"nombre": "Res.hielo -10",
+					"Puntos": "-15",
+					"Efecto": "Reduce 10 puntos la resistencia de hielo."
+				}
+			]
+		},
+		{
+			"Habilidad": "Res. dragón",
+			"division": [
+				{
+					"nombre": "Res.dragón +10",
+					"Puntos": "+15",
+					"Efecto": "Aumenta 10 puntos la resistencia de dragón."
+				},
+				{
+					"nombre": "Res.dragón +5",
+					"Puntos": "+10",
+					"Efecto": "Aumenta 5 puntos la resistencia de dragón."
+				},
+				{
+					"nombre": "Res.dragón -5",
+					"Puntos": "-10",
+					"Efecto": "Reduce 5 puntos la resistencia de dragón."
+				},
+				{
+					"nombre": "Res.dragón -10",
+					"Puntos": "-15",
+					"Efecto": "Reduce 10 puntos la resistencia de dragón."
+				}
+			]
+		}
+	],
+	"Habilidades de estados alterados": [
+		{
+			"Habilidad": "Desmayo",
+			"division": [
+				{
+					"nombre": "Desmayo anulado",
+					"Puntos": "+15",
+					"Efecto": "Previene el estado KO"
+				},
+				{
+					"nombre": "Prob.desmayo mitad",
+					"Puntos": "+10",
+					"Efecto": "Reduce la duración del estado KO a la mitad"
+				},
+				{
+					"nombre": "Dur.desmayo (x2)",
+					"Puntos": "-10",
+					"Efecto": "Duplica la duración del estado KO"
+				}
+			]
+		},
+		{
+			"Habilidad": "Veneno anulado",
+			"division": [
+				{
+					"nombre": "Previene el estado Veneno",
+					"Puntos": "+15",
+					"Efecto": "Previene el estado Veneno"
+				},
+				{
+					"nombre": "Dur. veneno mitad",
+					"Puntos": "+10",
+					"Efecto": "Reduce la duración del estado Veneno a la mitad"
+				},
+				{
+					"nombre": "Dur. veneno [x2] ",
+					"Puntos": "-10",
+					"Efecto": "Duplica la duración del estado Veneno "
+				}
+			]
+		},
+		{
+			"Habilidad": "Paralisis",
+			"division": [
+				{
+					"nombre": "Parálisis anulada",
+					"Puntos": "+15",
+					"Efecto": "Previene el estado Parálisis"
+				},
+				{
+					"nombre": "Dur. par. a mitad",
+					"Puntos": "+10",
+					"Efecto": "Reduce la duración del estado Parálisis a la mitad"
+				},
+				{
+					"nombre": "Dur.parálisis (x2)",
+					"Puntos": "-10",
+					"Efecto": "Duplica la duración del estado Parálisis"
+				}
+			]
+		},
+		{
+			"Habilidad": "Sueño",
+			"division": [
+				{
+					"nombre": "Sueño anulado",
+					"Puntos": "+15",
+					"Efecto": "Previene el estado Sueño"
+				},
+				{
+					"nombre": "Dur.sueño a mitad",
+					"Puntos": "+10",
+					"Efecto": "Reduce la duración del estado Sueño a la mitad"
+				},
+				{
+					"nombre": "Dur.sueño [x2] ",
+					"Puntos": "-10",
+					"Efecto": "Duplica la duración del estado Sueño"
+				}
+			]
+		},
+		{
+			"Habilidad": "Antisépt.",
+			"division": [
+				{
+					"nombre": "Antiséptico",
+					"Puntos": "+10",
+					"Efecto": "Previene el estado Hedor "
+				}
+			]
+		},
+		{
+			"Habilidad": "Anti-tembl.",
+			"division": [
+				{
+					"nombre": "Anti-temblor",
+					"Puntos": "+10",
+					"Efecto": "Protege de los terremotos provocados por ciertos ataques de monstruos (Blangonga, Lao Shan Lung, Rajang...) "
+				}
+			]
+		},
+		{
+			"Habilidad": "R.nieve",
+			"division": [
+				{
+					"nombre": "Resistencia nieve",
+					"Puntos": "+10",
+					"Efecto": "Previene el estado Muñeco de nieve."
+				}
+			]
+		},
+		{
+			"Habilidad": "Terreno",
+			"division": [
+				{
+					"nombre": "Anular daño terreno",
+					"Puntos": "+15",
+					"Efecto": "Anula el daño recibido al pararse sobre lava y el aura de Lunastra/Teostra. (Si se está sobre lava y en el aura de Lunastra/Teostra al mismo tiempo, se perderá salud aun con esta habilidad) "
+				},
+				{
+					"nombre": "Daño Terreno Mitad",
+					"Puntos": "+10",
+					"Efecto": "Reduce el daño recibido al pararse sobre lava y el aura de Lunastra/Teostra un 50%"
+				},
+				{
+					"nombre": "AumDañoTerreno[ba]",
+					"Puntos": "-10",
+					"Efecto": "Aumenta el daño recibido al pararse sobre lava y el aura de Lunastra/Teostra un 50%"
+				},
+				{
+					"nombre": "AumDañoTerreno[al]",
+					"Puntos": "-15",
+					"Efecto": "Aumenta el daño recibido al pararse sobre lava y el aura de Lunastra/Teostra un 100%"
+				}
+			]
+		},
+		{
+			"Habilidad": "Fatiga",
+			"division": [
+				{
+					"nombre": "Canc.fatiga",
+					"Puntos": "+10",
+					"Efecto": "Protege del estado Fatiga "
+				}
+			]
+		}
+	],
+	"Habilidades relacionadas con monstruos": [
+		{
+			"Habilidad": "Vis. Psiquica",
+			"division": [
+				{
+					"nombre": "Autoseguimiento",
+					"Puntos": "+15",
+					"Efecto": "Permite ver a los monstruos grandes y con detalle (Azul, tranquilo. Rojo, al estar molesto/ detectar al cazador) en el mapa en todo momento."
+				},
+				{
+					"nombre": "Detección",
+					"Puntos": "+10",
+					"Efecto": "Proporciona mas información sobre los monstruos grandes que han sido marcados en el mapa (Azul, tranquilo. Rojo, al estar molesto). El efecto permanece hasta que desaparece la pintura."
+				}
+			]
+		},
+		{
+			"Habilidad": "Percepcion",
+			"division": [
+				{
+					"nombre": "Gurú Tranquil.",
+					"Puntos": "+10 ",
+					"Efecto": "Muestra en el mapa si un monstruo esta listo para ser capturado (en amarillo). Requiere que el monstruo sea marcado o tener algún nivel de Vis.Psiquica para activarse."
+				}
+			]
+		},
+		{
+			"Habilidad": "Tranquil.",
+			"division": [
+				{
+					"nombre": "Celebridad Tranquil.",
+					"Puntos": "+15",
+					"Efecto": "Aumenta mucho la probabilidad de obtener más recompensas al capturar a un monstruo."
+				},
+				{
+					"nombre": "Susurro Tranquil.",
+					"Puntos": "+10",
+					"Efecto": "Aumenta un poco la probabilidad de obtener más recompensas al capturar un monstruo."
+				}
+			]
+		},
+		{
+			"Habilidad": "Confg.vel.",
+			"division": [
+				{
+					"nombre": "Maestro trampas",
+					"Puntos": "+10",
+					"Efecto": "Asegura el éxito de combinaciones de trampas y aumenta la velocidad de colocación de trampas y bombas barril."
+				}
+			]
+		}
+	],
+	"Habilidades de Recoleccion": [
+		{
+			"Habilidad": "Recogida",
+			"division": [
+				{
+					"nombre": "Recogida +2",
+					"Puntos": "+15",
+					"Efecto": "Aumenta las veces que se pueden recoger materiales en 2"
+				},
+				{
+					"nombre": "Recogida +1",
+					"Puntos": "+10",
+					"Efecto": "Aumenta las veces que se pueden recoger materiales en 1"
+				},
+				{
+					"nombre": "Recogida -1",
+					"Puntos": "-10",
+					"Efecto": "Reduce las veces que se pueden recoger materiales en 1"
+				},
+				{
+					"nombre": "Recogida -2",
+					"Puntos": "-15",
+					"Efecto": "Reduce las veces que se pueden recoger materiales en 2"
+				}
+			]
+		},
+		{
+			"Habilidad": "RecAltaVel",
+			"division": [
+				{
+					"nombre": "Recogida gran veloc.",
+					"Puntos": "+10",
+					"Efecto": "Aumenta la velocidad de recogida al picar, usar la red de bichos, recolección y despiece de partes de monstruo."
+				}
+			]
+		},
+		{
+			"Habilidad": "Pesca",
+			"division": [
+				{
+					"nombre": "Experto en pesca",
+					"Puntos": "+10",
+					"Efecto": "Incrementa el tiempo para atrapar al pez cuando pica la carnada."
+				}
+			]
+		},
+		{
+			"Habilidad": "Cortar",
+			"division": [
+				{
+					"nombre": "Celeb. cor",
+					"Puntos": "+15",
+					"Efecto": "Aumenta la cantidad de veces que se pueden cortar partes de monstruo en 1. "
+				},
+				{
+					"nombre": "Hombre hierro cort.",
+					"Puntos": "+10",
+					"Efecto": "Los ataques menores no interrumpen al cortar monstruos (vespoid, hornetaur...) "
+				}
+			]
+		},
+		{
+			"Habilidad": "Capricho",
+			"division": [
+				{
+					"nombre": "Capricho divino",
+					"Puntos": "+15",
+					"Efecto": "Reduce la probabilidad de rotura de los picos,redes de bichos, cuernos y búmerangs un 50%."
+				},
+				{
+					"nombre": "Capricho de espiritu",
+					"Puntos": "+10",
+					"Efecto": "Reduce la probabilidad de rotura de los picos,redes de bichos, cuernos y búmerangs un 25%. "
+				},
+				{
+					"nombre": "Capricho de espectro",
+					"Puntos": "-10",
+					"Efecto": "Aumenta la probabilidad de rotura de los picos,redes de bichos, cuernos y búmerangs un 25%. "
+				},
+				{
+					"nombre": "Capricho de demonio",
+					"Puntos": "-15",
+					"Efecto": "Aumenta la probabilidad de rotura de los picos,redes de bichos, cuernos y búmerangs un 50%."
+				}
+			]
+		},
+		{
+			"Habilidad": "Mochilero",
+			"division": [
+				{
+					"nombre": "Experto mochilero",
+					"Puntos": "+10",
+					"Efecto": "Aumenta la velocidad de movimiento al cargar huevos/piedras lava y permite caer desde mayores alturas sin romper huevos."
+				}
+			]
+		}
+	],
+	"Otras habilidades": [
+		{
+			"Habilidad": "AumenTorso",
+			"division": [
+				{
+					"nombre": "AumenTorso",
+					"Puntos": "-",
+					"Efecto": "Añade la misma cantidad de puntos de habilidad que tiene la coraza. Ej: Tenemos una coraza con +2 puntos. El primer AumenTorso incrementara ese valor a +4 puntos, y el segundo AumenTorso incrementara ese valor a +6. También añade los puntos negativos de habilidad de la coraza."
+				}
+			]
+		},
+		{
+			"Habilidad": "Protección",
+			"division": [
+				{
+					"nombre": "Protección divina",
+					"Puntos": "+10",
+					"Efecto": " Da una probabilidad de 25% de reducir el daño un 30% al recibir daño (Aparecen destellos alrededor del cazador cuando se activa la habilidad) "
+				},
+				{
+					"nombre": "Protección demoníaca",
+					"Puntos": "-10",
+					"Efecto": "Da una probabilidad de 25% de recibir 30% de daño extra al recibir daño."
+				}
+			]
+		},
+		{
+			"Habilidad": "Evasión",
+			"division": [
+				{
+					"nombre": "Evasión +2",
+					"Puntos": "+15",
+					"Efecto": "Aumenta mucho el tiempo de invulnerabilidad al rodar/salto evasivo. "
+				},
+				{
+					"nombre": "Evasión +1 ",
+					"Puntos": "+10",
+					"Efecto": "Aumenta ligeramente el tiempo de invulnerabilidad al rodar/salto evasivo"
+				}
+			]
+		},
+		{
+			"Habilidad": "Dist Evas.",
+			"division": [
+				{
+					"nombre": "Sub. Dis. Evasion",
+					"Puntos": "+10",
+					"Efecto": "Aumenta la distancia al rodar/salto evasivo."
+				}
+			]
+		},
+		{
+			"Habilidad": "Potencial",
+			"division": [
+				{
+					"nombre": "Adrenalina +2",
+					"Puntos": "+15",
+					"Efecto": "Sube 90 puntos de defensa y un 30% de ataque cuando la salud llega a menos de 40%"
+				},
+				{
+					"nombre": "Adrenalina +1",
+					"Puntos": "+10",
+					"Efecto": "Sube 90 puntos de defensa cuando la salud llega a menos de 40%"
+				},
+				{
+					"nombre": "Preocuparse",
+					"Puntos": "-10",
+					"Efecto": "Sube la defensa, pero reduce el ataque un 30% cuando la salud llega a menos de 40% "
+				}
+			]
+		},
+		{
+			"Habilidad": "Índice éxito mixto",
+			"division": [
+				{
+					"nombre": "Éxito combinac. +45%",
+					"Puntos": "+20",
+					"Efecto": "Aumenta la probabilidad de éxito al combinar objetos un 45%"
+				},
+				{
+					"nombre": "Éxito combinac. +25%",
+					"Puntos": "+15",
+					"Efecto": "Aumenta la probabilidad de éxito al combinar objetos un 25%"
+				},
+				{
+					"nombre": "Éxito combinac. +15%",
+					"Puntos": "+10",
+					"Efecto": "Aumenta la probabilidad de éxito al combinar objetos un 15%"
+				},
+				{
+					"nombre": "Éxito combinac. -15%",
+					"Puntos": "-10",
+					"Efecto": "Reduce la probabilidad de éxito al combinar objetos un 15%"
+				}
+			]
+		},
+		{
+			"Habilidad": "Disparo mixto",
+			"division": [
+				{
+					"nombre": "Limite de balas",
+					"Puntos": "+10",
+					"Efecto": "Maximiza la cantidad de munición/revestimiento que se puede producir por combinación. "
+				}
+			]
+		},
+		{
+			"Habilidad": "Alquimia",
+			"division": [
+				{
+					"nombre": "Alquimia",
+					"Puntos": "+10",
+					"Efecto": "Permite combinar objetos solo disponibles al activar la habilidad Alquimia"
+				}
+			]
+		},
+		{
+			"Habilidad": "Mapa",
+			"division": [
+				{
+					"nombre": "Mapa",
+					"Puntos": "+10 ",
+					"Efecto": "Muestra el mapa sin necesidad de tenerlo en el inventario "
+				},
+				{
+					"nombre": "Sin mapa",
+					"Puntos": "-10",
+					"Efecto": "Oculta el mapa aun teniendo el objeto en el inventario"
+				}
+			]
+		},
+		{
+			"Habilidad": "Área amplia",
+			"division": [
+				{
+					"nombre": "Área amplia +2",
+					"Puntos": "+20",
+					"Efecto": "Comparte un 100% del efecto de un objeto curativo a los cazadores/camaradas en la misma zona."
+				},
+				{
+					"nombre": "Área amplia +1",
+					"Puntos": "+10",
+					"Efecto": "Comparte un 50% del efecto de un objeto curativo a los cazadores/camaradas en la misma zona."
+				}
+			]
+		},
+		{
+			"Habilidad": "Lanzamiento",
+			"division": [
+				{
+					"nombre": "Subir lanzamiento",
+					"Puntos": "+10",
+					"Efecto": "Aumenta la distancia de lanzamiento de objetos arrojadizos (Cuchillos, piedras, bola pintura, bomba destello/sonica/tranquilizante) y reduce la rotura de búmerangs"
+				}
+			]
+		},
+		{
+			"Habilidad": "SubFueBomb",
+			"division": [
+				{
+					"nombre": "Bombardero",
+					"Puntos": "+10",
+					"Efecto": "Asegura el éxito en combinaciones de bombas y aumenta el daño de bombas un 50%"
+				}
+			]
+		},
+		{
+			"Habilidad": "Glotoneria",
+			"division": [
+				{
+					"nombre": "Carroñero",
+					"Puntos": "+15",
+					"Efecto": "Añade una probabilidad de ganar +25 de resistencia al consumir objetos curativos."
+				},
+				{
+					"nombre": "Relleno",
+					"Puntos": "+10",
+					"Efecto": "Añade una probabilidad de ganar +25 de resistencia al consumir pescado."
+				}
+			]
+		},
+		{
+			"Habilidad": "Recuperación",
+			"division": [
+				{
+					"nombre": "ObjRecSaludMejorados",
+					"Puntos": "+10",
+					"Efecto": "Aumenta la efectividad de objetos curativos un 25% "
+				},
+				{
+					"nombre": "ObjRecSaluddebilit.",
+					"Puntos": "-10",
+					"Efecto": "Reduce la efectividad de objetos curativos un 25%"
+				}
+			]
+		},
+		{
+			"Habilidad": "Vel.recup ",
+			"division": [
+				{
+					"nombre": "Vel.recup. daño +2",
+					"Puntos": "+20",
+					"Efecto": "Recupera la parte roja de la salud 4 veces mas rápido"
+				},
+				{
+					"nombre": "Vel.recup. daño +1 ",
+					"Puntos": "+10",
+					"Efecto": "Recupera la parte roja de la salud 2 veces mas rápido"
+				},
+				{
+					"nombre": "Vel.recup. daño +1 ",
+					"Puntos": "+10",
+					"Efecto": "Recupera la parte roja de la salud el doble de lento "
+				}
+			]
+		},
+		{
+			"Habilidad": "Sigilo",
+			"division": [
+				{
+					"nombre": "Sigilo",
+					"Puntos": "+10",
+					"Efecto": "Reduce la probabilidad de ser encontrado/atacado por monstruos."
+				},
+				{
+					"nombre": "Provocación",
+					"Puntos": "-10",
+					"Efecto": "Aumenta la probabilidad de ser encontrado/atacado por monstruos. "
+				}
+			]
+		},		{
+			"Habilidad": "Anti-Robo",
+			"division": [
+				{
+					"nombre": "Robo sin efecto ",
+					"Puntos": "+10",
+					"Efecto": "Previene el robo de objetos "
+				}
+			]
+		},		{
+			"Habilidad": "Destino",
+			"division": [
+				{
+					"nombre": "Impulso de suerte",
+					"Puntos": "+15",
+					"Efecto": "Incrementa aun más la probabilidad de obtener mas recompensas."
+				},
+				{
+					"nombre": "Buena suerte",
+					"Puntos": "+10",
+					"Efecto": "Incrementa la probabilidad de obtener mas recompensas."
+				},
+				{
+					"nombre": "Mala suerte",
+					"Puntos": "-10",
+					"Efecto": "Reduce la probabilidad de obtener mas recompensas."
+				},
+				{
+					"nombre": "Calamidad",
+					"Puntos": "-15",
+					"Efecto": "Reduce aun más la probabilidad de obtener mas recompensas."
+				}
+			]
+		},		
+		{
+			"Habilidad": "Const.",
+			"division": [
+				{
+					"nombre": "Constitución +2",
+					"Puntos": "+15",
+					"Efecto": "Reduce el consumo de resistencia al rodar/salto evasivo "
+				},
+				{
+					"nombre": "Constitución +1",
+					"Puntos": "+10",
+					"Efecto": "Reduce el consumo de resistencia al rodar/salto evasivo "
+				},
+				{
+					"nombre": "Constitución -1",
+					"Puntos": "-10",
+					"Efecto": "Aumenta el consumo de resistencia al rodar/salto evasivo"
+				}
+			]
+		},		
+		{
+			"Habilidad": "Eterno",
+			"division": [
+				{
+					"nombre": "Mejora uso objetos",
+					"Puntos": "+10",
+					"Efecto": "Aumenta el tiempo de duración de efecto de objetos un 50%"
+				},
+				{
+					"nombre": "Declive uso objetos",
+					"Puntos": "-10",
+					"Efecto": "Reduce el tiempo de duración de efecto de objetos un 50%"
+				}
+			]
+		},		
+		{
+			"Habilidad": "Resistencia",
+			"division": [
+				{
+					"nombre": "Corredor",
+					"Puntos": "+10",
+					"Efecto": "Reduce el consumo continuo de resistencia. (Correr, Modo Demoníaco, Cargar el ataque del Martillo/Arco y embestida de Lanza)"
+				},
+				{
+					"nombre": "Pies planos ",
+					"Puntos": "-10",
+					"Efecto": "Aumenta el consumo continuo de resistencia."
+				}
+			]
+		},		
+		{
+			"Habilidad": "Cocina",
+			"division": [
+				{
+					"nombre": "Comer rapido",
+					"Puntos": "+10",
+					"Efecto": "Aumenta la velocidad de consumo de objetos/comida"
+				},
+				{
+					"nombre": "Ralentizar vida ",
+					"Puntos": "-10",
+					"Efecto": "Reduce la velocidad de consumo de objetos/comida"
+				}
+			]
+		},		
+		{
+			"Habilidad": "Barbacoa",
+			"division": [
+				{
+					"nombre": "Celebridad barbacoa",
+					"Puntos": "+10",
+					"Efecto": "Hace mas fácil cocinar Filete al punto y hace posible cocinar Filete gourmet "
+				},
+				{
+					"nombre": "Rey barbacoa ",
+					"Puntos": "-10",
+					"Efecto": "Hace mas difícil cocinar"
+				}
+			]
+		},		{
+			"Habilidad": "Cuerno",
+			"division": [
+				{
+					"nombre": "Experto en flauta",
+					"Puntos": "+10",
+					"Efecto": "Previene la rotura de las flautas en un 50% y añade 1 minuto a la duración de las canciones del Cuerno de caza. "
+				}
+			]
+		},
+		{
+			"Habilidad": "Guia Camarada",
+			"division": [
+				{
+					"nombre": "Guíat+Comrc camrd",
+					"Puntos": "+15",
+					"Efecto": " Incrementa la experiencia Camarada Felyne y Puntos Habilidad obtenidos al finalizar la mision."
+				},
+				{
+					"nombre": "Guía camarada",
+					"Puntos": "+10",
+					"Efecto": "Incrementa la experiencia Camarada Felyne obtenida al finalizar la mision. "
+				}
+			]
+		}   
+	],
+	"Habilidades Compuestas": [
+		{
+			"Habilidad": "Anti-Daora",
+			"division": [
+				{
+					"nombre": "Protección helada ",
+					"Puntos": "+10",
+					"Efecto": "Combinacion de \"Anular viento dragón\" y \"Resistencia nieve\" "
+				}
+			]
+		},
+		{
+			"Habilidad": "AntiFueDrg",
+			"division": [
+				{
+					"nombre": "Protección metálica ",
+					"Puntos": "+10",
+					"Efecto": "Combinacion de \"Res. fuego +10\" y \"Anular daño terreno\" "
+				}
+			]
+		},
+		{
+			"Habilidad": "Anti-Chamel",
+			"division": [
+				{
+					"nombre": "Protección ardiente",
+					"Puntos": "+10",
+					"Efecto": "Combinacion de \"Robo sin efecto\", \"Veneno anulado\" y \"Canc.fatiga\" "
+				}
+			]
+		},
+		{
+			"Habilidad": "EstResist",
+			"division": [
+				{
+					"nombre": "Auto-Defensa",
+					"Puntos": "+10",
+					"Efecto": "Combinacion de \"Desmayo anulado\", \"Veneno anulado\", \"Paralisis anulado\" y \"Sueño anulado\" "
+				}
+			]
+		},
+		{
+			"Habilidad": "Furia",
+			"division": [
+				{
+					"nombre": "Envalentonado",
+					"Puntos": "+10",
+					"Efecto": "Combinacion de \"Adrenalina+2\" y \"Agallas\""
+				}
+			]
+		},
+		{
+			"Habilidad": "M.Espada",
+			"division": [
+				{
+					"nombre": "Cazador estelar",
+					"Puntos": "+10",
+					"Efecto": "Combinacion de \"Afilado +1\" y \"Sub ataque (grande)\" "
+				}
+			]
+		},
+		{
+			"Habilidad": "Mano firme",
+			"division": [
+				{
+					"nombre": "Firme y decidido",
+					"Puntos": "+10",
+					"Efecto": "Combinacion de \"Dnormal/ArcRáp subir\", \"Dperf/ArcPerf subir\" y \"Dperd/ArcDspr subir\" "
+				}
+			]
+		}
+	]
+}
